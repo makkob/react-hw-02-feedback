@@ -8,9 +8,3 @@ import App from "./components/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
-let countApp = new App();
-countApp.positiveFeedback();
-
-countApp.countPositiveFeedbackPercentage();
-countApp.test();
