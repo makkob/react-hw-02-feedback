@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function Section() {
+export default function Section({children, title }) {
   return (
-    <div>Section</div>
+    <div>
+        <h1> {title}</h1>
+        {children}
+    </div>
+    
   )
 }
