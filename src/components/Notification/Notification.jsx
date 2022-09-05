@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 export default function ({message}) {
   return (
@@ -7,3 +8,11 @@ export default function ({message}) {
     </div>
   )
 }
+
+Notification.defaultProps = {
+  message: "No message",
+};
+
+Notification.propTypes = {
+  message: PropTypes.string,
+};

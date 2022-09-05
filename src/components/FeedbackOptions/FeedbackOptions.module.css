@@ -1,0 +1,16 @@
+.buttons {
+    margin-right: 5px;
+    /* display: inline-block; */
+    padding: 15px 25px;
+    font-size: 18px;
+    /* cursor: pointer; */
+    text-align: center;
+    /* text-decoration: none; */
+    /* outline: none; */
+    color: rgb(0, 0, 0);
+    background-color: #98e69b;
+    /* border: none; */
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(168, 182, 170)
+}
+

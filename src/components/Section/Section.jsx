@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 export default function Section({children, title }) {
   return (
@@ -9,3 +10,12 @@ export default function Section({children, title }) {
     
   )
 }
+
+Section.defaultProps = {
+    title: "Section default title",
+  };
+  
+  Section.propTypes = {
+    title: PropTypes.string,
+    children: PropTypes.node,
+  };

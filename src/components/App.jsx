@@ -3,6 +3,7 @@ import FeedbackOptions from "./FeedbackOptions";
 import Statistics from "./Statistics";
 import Section from "./Section";
 import Notification from "./Notification";
+import "./global.css"
 
 export default class App extends Component {
   state = {
@@ -11,9 +12,7 @@ export default class App extends Component {
     bad: 0,
   };
 
-  // total = 0;
-
-  // positivePercentage = 0;
+  
 
   answerOptions = ["good", "neutral", "bad"];
 
