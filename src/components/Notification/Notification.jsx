@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 
-export default function ({message}) {
+export default function Notification ({message}) {
   return (
     <div>
      <h2>{message}</h2>
